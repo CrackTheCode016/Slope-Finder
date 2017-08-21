@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8898211F4B557200B18710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8898201F4B557200B18710 /* AppDelegate.swift */; };
+		DE8898231F4B557200B18710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8898221F4B557200B18710 /* ViewController.swift */; };
+		DE8898261F4B557200B18710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8898241F4B557200B18710 /* Main.storyboard */; };
+		DE8898281F4B557200B18710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8898271F4B557200B18710 /* Assets.xcassets */; };
+		DE88982B1F4B557200B18710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8898291F4B557200B18710 /* LaunchScreen.storyboard */; };
+		DE8898361F4B557200B18710 /* Slope_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8898351F4B557200B18710 /* Slope_FinderTests.swift */; };
+		DE8898411F4B557200B18710 /* Slope_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8898401F4B557200B18710 /* Slope_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8898321F4B557200B18710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8898151F4B557200B18710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE88981C1F4B557200B18710;
+			remoteInfo = "Slope Finder";
+		};
+		DE88983D1F4B557200B18710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8898151F4B557200B18710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE88981C1F4B557200B18710;
+			remoteInfo = "Slope Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE88981D1F4B557200B18710 /* Slope Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slope Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8898201F4B557200B18710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8898221F4B557200B18710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8898251F4B557200B18710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8898271F4B557200B18710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE88982A1F4B557200B18710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE88982C1F4B557200B18710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8898311F4B557200B18710 /* Slope FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slope FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8898351F4B557200B18710 /* Slope_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slope_FinderTests.swift; sourceTree = "<group>"; };
+		DE8898371F4B557200B18710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88983C1F4B557200B18710 /* Slope FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slope FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8898401F4B557200B18710 /* Slope_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slope_FinderUITests.swift; sourceTree = "<group>"; };
+		DE8898421F4B557200B18710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE88981A1F4B557200B18710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88982E1F4B557200B18710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8898391F4B557200B18710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8898141F4B557200B18710 = {
+			isa = PBXGroup;
+			children = (
+				DE88981F1F4B557200B18710 /* Slope Finder */,
+				DE8898341F4B557200B18710 /* Slope FinderTests */,
+				DE88983F1F4B557200B18710 /* Slope FinderUITests */,
+				DE88981E1F4B557200B18710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE88981E1F4B557200B18710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE88981D1F4B557200B18710 /* Slope Finder.app */,
+				DE8898311F4B557200B18710 /* Slope FinderTests.xctest */,
+				DE88983C1F4B557200B18710 /* Slope FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE88981F1F4B557200B18710 /* Slope Finder */ = {
+			isa = PBXGroup;
+			children = (
+				DE8898201F4B557200B18710 /* AppDelegate.swift */,
+				DE8898221F4B557200B18710 /* ViewController.swift */,
+				DE8898241F4B557200B18710 /* Main.storyboard */,
+				DE8898271F4B557200B18710 /* Assets.xcassets */,
+				DE8898291F4B557200B18710 /* LaunchScreen.storyboard */,
+				DE88982C1F4B557200B18710 /* Info.plist */,
+			);
+			path = "Slope Finder";
+			sourceTree = "<group>";
+		};
+		DE8898341F4B557200B18710 /* Slope FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8898351F4B557200B18710 /* Slope_FinderTests.swift */,
+				DE8898371F4B557200B18710 /* Info.plist */,
+			);
+			path = "Slope FinderTests";
+			sourceTree = "<group>";
+		};
+		DE88983F1F4B557200B18710 /* Slope FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8898401F4B557200B18710 /* Slope_FinderUITests.swift */,
+				DE8898421F4B557200B18710 /* Info.plist */,
+			);
+			path = "Slope FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE88981C1F4B557200B18710 /* Slope Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8898451F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope Finder" */;
+			buildPhases = (
+				DE8898191F4B557200B18710 /* Sources */,
+				DE88981A1F4B557200B18710 /* Frameworks */,
+				DE88981B1F4B557200B18710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slope Finder";
+			productName = "Slope Finder";
+			productReference = DE88981D1F4B557200B18710 /* Slope Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8898301F4B557200B18710 /* Slope FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8898481F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope FinderTests" */;
+			buildPhases = (
+				DE88982D1F4B557200B18710 /* Sources */,
+				DE88982E1F4B557200B18710 /* Frameworks */,
+				DE88982F1F4B557200B18710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8898331F4B557200B18710 /* PBXTargetDependency */,
+			);
+			name = "Slope FinderTests";
+			productName = "Slope FinderTests";
+			productReference = DE8898311F4B557200B18710 /* Slope FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE88983B1F4B557200B18710 /* Slope FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE88984B1F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope FinderUITests" */;
+			buildPhases = (
+				DE8898381F4B557200B18710 /* Sources */,
+				DE8898391F4B557200B18710 /* Frameworks */,
+				DE88983A1F4B557200B18710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE88983E1F4B557200B18710 /* PBXTargetDependency */,
+			);
+			name = "Slope FinderUITests";
+			productName = "Slope FinderUITests";
+			productReference = DE88983C1F4B557200B18710 /* Slope FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8898151F4B557200B18710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Santiago;
+				TargetAttributes = {
+					DE88981C1F4B557200B18710 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DE8898301F4B557200B18710 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE88981C1F4B557200B18710;
+					};
+					DE88983B1F4B557200B18710 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE88981C1F4B557200B18710;
+					};
+				};
+			};
+			buildConfigurationList = DE8898181F4B557200B18710 /* Build configuration list for PBXProject "Slope Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8898141F4B557200B18710;
+			productRefGroup = DE88981E1F4B557200B18710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE88981C1F4B557200B18710 /* Slope Finder */,
+				DE8898301F4B557200B18710 /* Slope FinderTests */,
+				DE88983B1F4B557200B18710 /* Slope FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE88981B1F4B557200B18710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE88982B1F4B557200B18710 /* LaunchScreen.storyboard in Resources */,
+				DE8898281F4B557200B18710 /* Assets.xcassets in Resources */,
+				DE8898261F4B557200B18710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88982F1F4B557200B18710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88983A1F4B557200B18710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8898191F4B557200B18710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8898231F4B557200B18710 /* ViewController.swift in Sources */,
+				DE8898211F4B557200B18710 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE88982D1F4B557200B18710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8898361F4B557200B18710 /* Slope_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8898381F4B557200B18710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8898411F4B557200B18710 /* Slope_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8898331F4B557200B18710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE88981C1F4B557200B18710 /* Slope Finder */;
+			targetProxy = DE8898321F4B557200B18710 /* PBXContainerItemProxy */;
+		};
+		DE88983E1F4B557200B18710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE88981C1F4B557200B18710 /* Slope Finder */;
+			targetProxy = DE88983D1F4B557200B18710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE8898241F4B557200B18710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8898251F4B557200B18710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8898291F4B557200B18710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE88982A1F4B557200B18710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8898431F4B557200B18710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8898441F4B557200B18710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8898461F4B557200B18710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slope Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bod.Slope-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE8898471F4B557200B18710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slope Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bod.Slope-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DE8898491F4B557200B18710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Slope FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bod.Slope-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slope Finder.app/Slope Finder";
+			};
+			name = Debug;
+		};
+		DE88984A1F4B557200B18710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Slope FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bod.Slope-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slope Finder.app/Slope Finder";
+			};
+			name = Release;
+		};
+		DE88984C1F4B557200B18710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Slope FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bod.Slope-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Slope Finder";
+			};
+			name = Debug;
+		};
+		DE88984D1F4B557200B18710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Slope FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bod.Slope-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Slope Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8898181F4B557200B18710 /* Build configuration list for PBXProject "Slope Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8898431F4B557200B18710 /* Debug */,
+				DE8898441F4B557200B18710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8898451F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8898461F4B557200B18710 /* Debug */,
+				DE8898471F4B557200B18710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8898481F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8898491F4B557200B18710 /* Debug */,
+				DE88984A1F4B557200B18710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE88984B1F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE88984C1F4B557200B18710 /* Debug */,
+				DE88984D1F4B557200B18710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8898151F4B557200B18710 /* Project object */;
+}
