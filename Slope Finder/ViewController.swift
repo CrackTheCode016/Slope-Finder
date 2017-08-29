@@ -10,16 +10,59 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var CalcE: UIButton!
+    @IBOutlet weak var X1Vari: UITextField!
+    @IBOutlet weak var Y1Vari: UITextField!
+    @IBOutlet weak var X2: UITextField!
+    @IBOutlet weak var Y2: UITextField!
+    @IBOutlet weak var resultLabel: UILabel!
+    var ys: Double = 0.0
+    var xs: Double = 0.0
+    
+    override func
+        viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        X1Vari.text = "0.0"
+        Y1Vari.text = "0.0"
+        X2.text = "0.0"
+        Y2.text = "0.0"
+        var fieldArray: [UITextField] = [X1Vari, Y1Vari, X2, Y2]
+        for index in 0..<(fieldArray.count) {
+            fieldArray[index].keyboardType = .decimalPad }
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
+        
+        
+    
+    }
+    
+    @IBAction func clearFields() {
+        resultLabel.text = "0"
+        ys = 0.0
+        xs = 0.0
+
+    }
+    
+    @IBAction func calcSlopeBtn() {
+        peformCalculation()
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
+    func peformCalculation() {
+        if  X1Vari.hasText && Y1Vari.hasText && X2.hasText && Y2.hasText {
+            ys = Double(Y2.text!)! - Double(Y1Vari.text!)!
+            xs = Double(X2.text!)! - Double(X1Vari.text!)!
+            resultLabel.text = "\(ys/xs)"
+
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+        
 }
+
+
 
