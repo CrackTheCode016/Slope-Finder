@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B155553B1F573E02005804EC /* FunctionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155553A1F573E02005804EC /* FunctionViewVC.swift */; };
+		B155553D1F573FF7005804EC /* FunctionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155553C1F573FF7005804EC /* FunctionTableViewCell.swift */; };
+		B155553F1F574016005804EC /* FunctionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B155553E1F574016005804EC /* FunctionModel.swift */; };
 		DE8898211F4B557200B18710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8898201F4B557200B18710 /* AppDelegate.swift */; };
 		DE8898231F4B557200B18710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8898221F4B557200B18710 /* ViewController.swift */; };
 		DE8898261F4B557200B18710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8898241F4B557200B18710 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B155553A1F573E02005804EC /* FunctionViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionViewVC.swift; sourceTree = "<group>"; };
+		B155553C1F573FF7005804EC /* FunctionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionTableViewCell.swift; sourceTree = "<group>"; };
+		B155553E1F574016005804EC /* FunctionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionModel.swift; sourceTree = "<group>"; };
 		DE88981D1F4B557200B18710 /* Slope Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slope Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8898201F4B557200B18710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8898221F4B557200B18710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				DE8898271F4B557200B18710 /* Assets.xcassets */,
 				DE8898291F4B557200B18710 /* LaunchScreen.storyboard */,
 				DE88982C1F4B557200B18710 /* Info.plist */,
+				B155553A1F573E02005804EC /* FunctionViewVC.swift */,
+				B155553C1F573FF7005804EC /* FunctionTableViewCell.swift */,
+				B155553E1F574016005804EC /* FunctionModel.swift */,
 			);
 			path = "Slope Finder";
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 			files = (
 				DE8898231F4B557200B18710 /* ViewController.swift in Sources */,
 				DE8898211F4B557200B18710 /* AppDelegate.swift in Sources */,
+				B155553B1F573E02005804EC /* FunctionViewVC.swift in Sources */,
+				B155553D1F573FF7005804EC /* FunctionTableViewCell.swift in Sources */,
+				B155553F1F574016005804EC /* FunctionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				DE8898471F4B557200B18710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE8898481F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				DE88984A1F4B557200B18710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE88984B1F4B557200B18710 /* Build configuration list for PBXNativeTarget "Slope FinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				DE88984D1F4B557200B18710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
