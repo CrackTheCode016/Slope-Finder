@@ -10,6 +10,7 @@ import UIKit
 
 class FunctionTableViewCell: UITableViewCell {
     @IBOutlet weak var functionLbl: UILabel!
+    var backgroundPic: UIImage = #imageLiteral(resourceName: "background")
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,5 +20,6 @@ class FunctionTableViewCell: UITableViewCell {
     func addFunc(funcModel: FunctionModel) {
         functionLbl.text = funcModel._functionString
     }
-
+    
+    
 }

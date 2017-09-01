@@ -11,6 +11,7 @@ import Foundation
 
 class FunctionModel {
     var functionString: String!
+    
     var _functionString: String {
         return functionString
     }

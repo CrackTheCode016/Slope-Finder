@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     var ys: Double = 0.0
     var xs: Double = 0.0
     
+    
+    
     override func
         viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +49,30 @@ class ViewController: UIViewController {
     @IBAction func calcSlopeBtn() {
         peformCalculation()
     }
+    func createFunctionFromResults(x: Double, y: Double, slope: Double) -> String {
+        let distribute = slope * x
+        let xOverY = distribute/y
+        let resultString = "y = \(slope)x + \(xOverY)"
+        return resultString
+        
+    }
+
+   
+    @IBAction func createFunc(_ sender: UIButton) {
+          let function = FunctionModel(_functionString: createFunctionFromResults(x: Double(X1Vari.text!)!, y: Double(Y1Vari.text!)!, slope: Double(resultLabel.text!)!))
+            performSegue(withIdentifier: "FunctionVC", sender: function)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let function = createFunctionFromResults(x: Double(X1Vari.text!)!, y: Double(Y1Vari.text!)!, slope: Double(resultLabel.text!)!)
+        
+            if let destinaton = segue.destination as? FunctionViewVC {
+                    destinaton.functionString = function
+                    
+                
+            }
+        }
+    
     
     func dismissKeyboard() {
         view.endEditing(true)
@@ -59,6 +85,7 @@ class ViewController: UIViewController {
             resultLabel.text = "\(ys/xs)"
 
         }
+        
     }
 
         
